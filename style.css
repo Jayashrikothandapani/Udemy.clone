@@ -189,3 +189,23 @@ body {
     align-items: center;
     padding: 20px;
 }
+/* Media Queries*/
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .coursecard{
+        flex-basis: 40%;
+    }
+    .categories,.header__2,.header__3{
+        display: none;
+    }
+}
+@media screen and (min-width: 600px){
+    .menubar{
+        display: none;
+        cursor: pointer;
+    }
+}
